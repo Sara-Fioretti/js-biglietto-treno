@@ -18,4 +18,4 @@ if (età < 18){
     prezzo = (chilometri * 0.21)
 }
 
-console.log("Il prezzo è " + prezzo)
+console.log("Il prezzo è " + prezzo.toFixed(2) + "€")
